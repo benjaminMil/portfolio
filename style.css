@@ -360,6 +360,13 @@ footer {
   .inverse-rotate {
     transform: rotate(0);
   }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   .project-name {
     text-align: center;
   }
