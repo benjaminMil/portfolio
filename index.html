@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>benjaminMillis.dev</title>
+    <link rel="icon" href="images/bmLogo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/bmLogo.svg" alt="Logo" />
+        <p class="logo-font">.dev</p>
+      </div>
+      <!-- <div class="desktop-nav-links">
+        <ul class="nav-links">
+          <li><a href="#projects"></a>Projects</li>
+          <li><a href="#contact"></a>Contact</li>
+        </ul>
+      </div>
+      <div class="hamburger-logo">
+        <img id="hamburger" src="/images/hamburger.svg" alt="menu icon" />
+        <ul class="hamburger-dropdown">
+          <li><a href="#projects"></a>Projects</li>
+          <li><a href="#contact"></a>Contact</li>
+        </ul>
+      </div>-->
+    </nav>
+    <main class="container">
+      <header>
+        <div class="header-title">
+          <div class="header-title-profile">
+            <img class="small-profile" src="/images/benny-profile.png" alt="profile image">
+            <h1>Hi, I'm Benjamin.</h1>
+        </div>
+          <h2><span class="accent-color">Front End Developer</span></h2>
+          <div class="location">
+            <img src="images/pin.svg" alt="location" />
+            <h4>Stockholm, Sweden</h4>
+          </div>
+
+          <div class="header-links">
+            <a href="https://github.com/benjaminMil" target="_blank"
+              ><div class="icon-github"></div
+            ></a>
+            <a href="https://x.com/mrbennybrains/" target="_blank"></a>
+              
+              <div class="icon-x"></div
+            ></a>
+            <button class="secondary-btn">
+              <a href="#contact">Contact</a>
+            </button>
+          </div>
+        </div>
+        <div class="tech">
+          <p class="tech-stack">
+            <span class="accent-color">Tech Stack:</span>
+          </p>
+          <div class="languages">
+            <img src="/images/html-5.png" alt="HTML" class="icon" />
+            <img src="/images/css-3.png" alt="CSS" class="icon" />
+            <img src="/images/js.png" alt="JavaScript" class="icon" />
+            <img src="/images/social.png" alt="GIT" class="icon" />
+          </div>
+        </div>
+      </header>
+      <section id="projects">
+        <a href="#projects"><h2 class="section-title">
+          <span class="accent-color underline">Projects</span>
+        </h2></a>
+        <div class="project">
+          <img
+            src="images/erby.png"
+            alt="Project screenshot"
+            class="screenshot"
+          />
+          <div class="project-info">
+            <h3 class="project-name"><span class="accent-color">Erby</span></h3>
+            <p>
+              Erby is a fun website that uses "Ai" to give you inspiration,
+              advice and more!
+            </p>
+            <p>Made with HTML, CSS and Vanilla Js</p>
+            <div class="project-btns">
+              <button class="secondary-btn">
+                <a href="https://github.com/benjaminMil/Erby" target="_blank"
+                  >Github Repo</a
+                >
+              </button>
+              <button class="primary-btn">
+                <a href="https://benjaminmil.github.io/Erby/" target="_blank"
+                  >Live Site</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-info">
+            <h3 class="project-name">
+              <span class="accent-color">Up Sum Down Some</span>
+            </h3>
+            <p>
+              A Maths game I made for Maths teachers to use in class with
+              students. Students use mental maths to follow along with the
+              numbers to calculate a total which is revealed at the end of the
+              game!
+            </p>
+            <p>Made with HTML, CSS and Vanilla Js</p>
+            <div class="project-btns">
+              <button class="secondary-btn">
+                <a href="https://github.com/benjaminMil/sumUpSomeDown" target="_blank"
+                  >Github Repo</a
+                >
+              </button>
+              <button class="primary-btn">
+                <a href="https://upsumdownsome.netlify.app/" target="_blank"
+                  >Live Site</a
+                >
+              </button>
+            </div>
+          </div>
+          <img
+            src="images/upSumDownSome.png"
+            alt="Project screenshot"
+            class="screenshot inverse-rotate"
+          />
+        </div>
+        <div class="project">
+          <img
+            src="images/MrGs Wheel.png"
+            alt="Project screenshot"
+            class="screenshot-desktop"
+          />
+          <div class="project-info">
+            <h3 class="project-name">
+              <span class="accent-color">Mr G's Wheel</span>
+            </h3>
+            <p>
+              Mr G's Wheel is a random wheel spinner. It uses Chart.js to create
+              a fair wheel based on user input and Js logic to animate and
+              randomly pick a winner.</p>
+              <p>This site was made to be displayed on a
+              classroom projector screen and best viewed on desktop computer.
+            </p>
+            <p>Made with HTML, CSS and Vanilla Js</p>
+            <div class="project-btns">
+              <button class="secondary-btn">
+                <a href="https://github.com/benjaminMil/wheel" target="_blank"
+                  >Github Repo</a
+                >
+              </button>
+              <button class="primary-btn">
+                <a href="https://benjaminmil.github.io/wheel/" target="_blank"
+                  >Live Site</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-info">
+            <h3 class="project-name">
+              <span class="accent-color">Oh My Wordle Trainer</span>
+            </h3>
+            <p>
+              Love Wordle? Hate that there's only one word a day? This site lets you generate new words so now you can play as much as you want!
+            </p>
+            <p>This was a Tutorial from Frontend Masters. I added the implentation to make the game be replayable as much as you like and added some visual animations for winning and loosing.</p>
+            <p>Made with HTML, CSS and Vanilla Js</p>
+            <div class="project-btns">
+              <button class="secondary-btn">
+                <a href="https://github.com/benjaminMil/Oh-My-Wordle" target="_blank"
+                  >Github Repo</a
+                >
+              </button>
+              <button class="primary-btn">
+                <a href="https://benjaminmil.github.io/Oh-My-Wordle/" target="_blank"
+                  >Live Site</a
+                >
+              </button>
+            </div>
+          </div>
+          <img
+            src="images/Oh My Wordle.png"
+            alt="Project screenshot"
+            class="screenshot inverse-rotate"
+          />
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="section-title">
+          <span class="accent-color underline">Contact</span>
+        </h2>
+        <div class="form-box">
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/xbljykvw"
+            method="POST"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+
+            <input
+              type="email"
+              id="email"
+              name="_replyto"
+              placeholder="email"
+              required
+            />
+
+            <textarea
+              id="message"
+              name="message"
+              placeholder="message..."
+              required
+            ></textarea>
+
+            <button class="primary-btn contact-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <span class="accent-color"
+          >© 2024 Benjamin Millis. All rights reserved.</span
+        >
+      </p>
+
+      <div class="footer-icon">
+        <img src="images/bmLogo.svg" alt="site logo" />
+        <a href="https://github.com/benjaminMil" target="_blank"
+        ><div class="icon-github-footer"></div
+      ></a>
+      <a href="https://x.com/mrbennybrains/" target="_blank">
+        
+        <div class="icon-x-footer"></div
+      ></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
