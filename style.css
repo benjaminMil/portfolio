@@ -351,11 +351,13 @@ footer {
 }
 
 @media screen and (max-width: 1075px) {
+  
   .project:nth-of-type(2),
   .project:last-child {
     flex-direction: column-reverse;
     align-items: center;
   }
+  
   .screenshot,
   .inverse-rotate {
     transform: rotate(0);
@@ -374,6 +376,7 @@ footer {
   .project-btns {
     justify-self: center;
   }
+  
   p {
     text-align: center;
   }
@@ -384,6 +387,7 @@ footer {
 }
 
 @media screen and (max-width: 936px) {
+  
   h1 {
     max-width: 9ch;
     display: inline-block;
@@ -428,12 +432,14 @@ footer {
     margin-right: 0;
     padding: 0;
   }
+  
   .header-title h2 {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
+  
   .project {
     margin-left: 1rem;
     margin-right: 1rem;
