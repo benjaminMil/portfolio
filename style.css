@@ -31,6 +31,10 @@ p {
   max-width: 50ch;
 }
 
+a {
+  font-size: 1rem;
+}
+
 .accent-color {
   background: linear-gradient(
     35deg,
@@ -239,6 +243,10 @@ h3 {
   transform: scale(0.95);
 }
 
+.header-links .secondary-btn {
+  padding: 7px 20px;
+}
+
 section {
   margin-top: 3rem;
 }
@@ -351,13 +359,11 @@ footer {
 }
 
 @media screen and (max-width: 1075px) {
-  
   .project:nth-of-type(2),
   .project:last-child {
     flex-direction: column-reverse;
     align-items: center;
   }
-  
   .screenshot,
   .inverse-rotate {
     transform: rotate(0);
@@ -368,7 +374,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .project-name {
     text-align: center;
   }
@@ -376,7 +382,6 @@ footer {
   .project-btns {
     justify-self: center;
   }
-  
   p {
     text-align: center;
   }
@@ -387,7 +392,6 @@ footer {
 }
 
 @media screen and (max-width: 936px) {
-  
   h1 {
     max-width: 9ch;
     display: inline-block;
@@ -432,14 +436,15 @@ footer {
     margin-right: 0;
     padding: 0;
   }
-  
   .header-title h2 {
+    text-align: center;
+  }
+  .tech h4 {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
-  
   .project {
     margin-left: 1rem;
     margin-right: 1rem;
